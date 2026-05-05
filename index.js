@@ -36,6 +36,11 @@ function displayItemOnHomepage()
 { 
 let itemsContainerElement = document.querySelector(".items-container");
 
+if(!itemsContainerElement)
+{
+    return;
+}
+
 // If you want to make one by one then use like this as shown below:
 
 // let item = {
